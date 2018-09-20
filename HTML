@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Calendar</title>
+    <script language="JavaScript" src="/Calendario.js"></script>
+    <style></style>
+    <script language="JavaScript">
+        var cal = new CalendarPopup();
+    </script>
+</head>
+
+<body>
+
+    <form name="calendar">
+        <input name="date1" value="" size="25" type="text">
+        <a href="#" onclick="cal.select(document.forms['example'].date1,'anchor1','MM/dd/yyyy'); return false;" name="anchor1" id="anchor1">select</a>
+    </form>
+
+
+
+</body>
+
+</html>
